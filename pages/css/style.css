@@ -1,36 +1,39 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@300&display=swap');
 
-body{
+body {
     font-family: 'Lexend Deca', sans-serif;
     background-color: #cbccce;
 
 }
 
-.container{
+.container {
     max-width: 1024px;
-    margin:auto auto;
-    border:solid 1px #b8b8b8;
+    margin: auto auto;
+    border: solid 1px #b8b8b8;
     padding: 10px;
     background-color: #f8f9fa;
 
 }
-.container h1{
+
+.container h1 {
     text-align: center;
 
 }
-.flex-container{
-    display:flex;
+
+.flex-container {
+    display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
 }
-.flex-container>button{
+
+.flex-container>button {
     width: 150px;
     margin: 10px;
     height: 50px;
-    cursor:pointer;
+    cursor: pointer;
     border-radius: 8px;
-    border:#6c757d;
+    border: #6c757d;
     background-color: #6c757d;
     color: white;
     text-align: center;
@@ -39,37 +42,38 @@ body{
     flex: 0 0 45%;
 }
 
-.flex-container>button:hover{
+.flex-container>button:hover {
     background-color: #565e64;
     color: white;
 }
 
-p{
+p {
     border-style: dashed;
     border-width: 2px;
-    min-height:200px;
+    min-height: 200px;
     padding: 10px;
-    font-size:1.2em;
+    font-size: 1.2em;
 }
-a{
-    display:block;
+
+a {
+    display: block;
     width: auto;
     text-align: center;
     background-color: #0d6efd;
     border-radius: 10px;
-    color:white;
+    color: white;
     text-decoration: none;
     padding: 10px;
     margin-top: 10px;
 
 }
 
-a:hover{
+a:hover {
     background-color: #0a58ca;
 }
 
 
-a{
+a {
     display: block;
     width: auto;
     text-align: center;
@@ -83,46 +87,46 @@ a{
 
 }
 
-a:hover{
+a:hover {
     background-color: #0a58ca;
 
 }
 
-table{
+table {
     border-collapse: collapse;
     width: 100%;
 
 }
 
-table th, table td{
-    border:  1px solid #ddd;
+table th,
+table td {
+    border: 1px solid #ddd;
     padding: 10px;
 
 }
 
 
-table th{
+table th {
     background-color: #d1e7dd;
     border-color: #d1e7dd;
 }
 
 
-table td[scope="row"]{
+table td[scope="row"] {
     text-align: center;
     font-weight: bold;
 }
 
 
-table td{
-    cursor:pointer;
+table td {
+    cursor: pointer;
 }
 
-table tr:nth-child(even){
+table tr:nth-child(even) {
     background-color: #f2f2f2;
 
 }
 
-table tr:hover{
+table tr:hover {
     background-color: #ddd;
 }
-
